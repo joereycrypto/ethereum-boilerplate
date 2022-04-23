@@ -11,30 +11,28 @@ function MenuItems() {
       mode="horizontal"
       style={{
         display: "flex",
-        fontSize: "17px",
-        fontWeight: "500",
+        fontSize: "15px",
+        fontWeight: "700",
         width: "100%",
         justifyContent: "center",
+        marginTop: "1px",
       }}
       defaultSelectedKeys={[pathname]}
     >
-      <Menu.Item key="/quickstart">
-        <NavLink to="/quickstart">🚀 Quick Start</NavLink>
-      </Menu.Item>
       <Menu.Item key="/wallet">
-        <NavLink to="/wallet">👛 Wallet</NavLink>
+        <NavLink to="/wallet">👛 SEND</NavLink>
       </Menu.Item>
       <Menu.Item key="/1inch">
-        <NavLink to="/1inch">🏦 Dex</NavLink>
+        <NavLink to="/1inch">💱 SWAP</NavLink>
       </Menu.Item>
       <Menu.Item key="onramp">
         <NavLink to="/onramp">💵 Fiat</NavLink>
       </Menu.Item>
       <Menu.Item key="/erc20balance">
-        <NavLink to="/erc20balance">💰 Balances</NavLink>
+        <NavLink to="/erc20balance">💰🎁 WALLET</NavLink>
       </Menu.Item>
       <Menu.Item key="/erc20transfers">
-        <NavLink to="/erc20transfers">💸 Transfers</NavLink>
+        <NavLink to="/erc20transfers">💸 HISTORY</NavLink>
       </Menu.Item>
       <Menu.Item key="/nftBalance">
         <NavLink to="/nftBalance">🖼 NFTs</NavLink>
